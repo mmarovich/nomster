@@ -1,4 +1,6 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe');
+
 
 body {
   background: image_url('white_brick_wall.png');
@@ -26,4 +28,9 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 10px;
   margin-bottom: 15px;
   padding: 20px;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #E3E85A;
+  font-family: 'ZCOOL KuaiLe', cursive;
 }
