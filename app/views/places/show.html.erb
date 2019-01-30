@@ -75,6 +75,13 @@
   </button>
 </div>
 
+<div class="col-10 offset-1">
+  <%= simple_form_for @photo, place_photos_path(@place) do |f| %>
+    <%= f.input :description %>
+    <%= f.input :picture %>
+  <% end %>
+</div>
+
 <div class="clear"></div>
 
 <div class="row">
