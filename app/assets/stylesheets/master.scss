@@ -81,6 +81,20 @@ blockquote p {
   width: 100%;
 }
 
-.my-carousel {
-  height: 400px;
+.carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
+  max-height: calc(100vh - 56px);
+  width: 100%;
+}
+
+.carousel-caption {
+  background-color: rgba(25,25,25, .3);
+  border-radius: 20px;
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 60px;
+  font-weight: 100;
+  text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
+}
+
+.carousel {
+  box-shadow: 0px 3px 8px #2a2a2a;
 }
